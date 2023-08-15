@@ -1,22 +1,28 @@
+
+    
 * {
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 header {
-    margin: 47px 0px 135px 42px;
+ 
+    margin-top: 47px;
+    margin-left: 42px;
 }
 
 .link-header {
     color: #17233D;
-    font-family: sans-serif;
+   
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 1px;
     text-decoration: none;
-    margin-right: 36px;
+    margin-right: 32px;
+    line-height: 21px;
+    text-align: center;
     cursor: pointer;
 }
 
@@ -28,7 +34,7 @@ header {
     background: #6fbf44;
     cursor: pointer;
     color: #ffffff;
-    font-family: sans-serif;
+  
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 1px;
@@ -36,30 +42,31 @@ header {
 }
 
 .logo-image {
-    width: 534px;
-    height: 467px;
-    margin-left: 182px;
+    margin: 163px 0 0 123px ;
     display: inline-block;
+   
 }
 
 section {
     display: inline-block;
-    margin-left: 85px;
+    margin-left: 84px;
+    width: 493px;
+   
 }
 
 h1 {
     color: #161a49;
-    font-family: sans-serif;
-    font-size: 62px;
+
+    font-size: 67px;
     font-weight: 700;
     line-height: 82px;
     letter-spacing: 1px;
-    width: 582px;
+   
 }
 
 p {
-    width: 493px;
-    font-family: sans-serif;
+   
+   
     font-size: 18px;
     font-weight: 400;
     line-height: 33px;
@@ -72,13 +79,14 @@ p {
 
 .button-main {
     
-    font-family: sans-serif;
     font-size: 18px;
     font-weight: 500;
     letter-spacing: 1px;
     color: #6fbf44;
     margin-bottom: 50px;
     cursor: pointer;
+    border: none;
+    background: transparent;
 
 }
 
