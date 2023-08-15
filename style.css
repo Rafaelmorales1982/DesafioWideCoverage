@@ -44,6 +44,7 @@ header {
 .logo-image {
     margin: 163px 0 0 123px ;
     display: inline-block;
+    width: 500px;
    
 }
 
@@ -57,7 +58,7 @@ section {
 h1 {
     color: #161a49;
 
-    font-size: 67px;
+    font-size: 50px;
     font-weight: 700;
     line-height: 82px;
     letter-spacing: 1px;
